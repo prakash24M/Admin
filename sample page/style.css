@@ -1,0 +1,332 @@
+*{
+    font-family: 'Montserrat';
+}
+.Top_nav_clr{
+    background-color:#f0eeee ;
+}
+
+.rounded-pill{
+    margin-bottom: 70px;
+    height: 65px;
+    width: 55%;
+    background-color: #8bf55b;
+}
+.rounded-pill:hover{
+    margin-bottom: 70px;
+    height: 65px;
+    width: 55%;
+    background-color: #8bf55b;
+}
+.follow_box{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.follow_content{
+    margin-top: 10px;
+}
+.btn-outline-dark{
+    width: 25%;
+    color: blue;
+}
+.card-deck{
+    min-height: max-content;
+}
+.sec{
+    height: 400px;
+    margin-top: 100px;
+}
+.third{
+
+    height: 500px;
+}
+.mobile_img{
+    height:400px;
+    object-fit: contain;
+    margin-left: 23%;
+}
+.box_icon{
+    border: 1px solid;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.feature_content{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 36%;
+}
+.card_container{
+    margin-bottom: 150px;
+}
+.icon_container{
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+.family_colum_1{
+    margin-left: 105px;
+    margin-top: 2px;
+}
+.family_colum_2{
+    margin-left: 150px;
+    padding-bottom: 160px;
+}
+.family_content{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 37%;
+}
+.family_content1{
+    position: absolute;
+    margin-top: 46px;
+    margin-left: 37%;
+}
+.family_content2{
+
+}
+.family_btn{
+    position: absolute;
+   
+    margin-left: 167px;
+    border: 1px solid;
+    padding: 16px;
+    width: 37%;
+    border-radius: 12px;
+    border-color: #fff;
+    background-color: #007bff;
+    color: #fff;
+}
+.family_btn:hover{
+    position: absolute;
+   
+    margin-left: 167px;
+    border: 1px solid;
+    padding: 16px;
+    width: 37%;
+    border-radius: 12px;
+    border-color: #fff;
+    background:#fff;
+    color: green;
+}
+.choose_cont{
+    margin-left: 25%;
+    margin-top: 100px;
+}
+.choose_cont1{
+    margin-left: 25%;
+    width: 50%;
+}
+.choose_section{
+    padding-bottom: 80px;
+
+}
+.ask_section{
+    padding-bottom: 70px;
+}
+.ask_section1{
+    padding-left: 103px;
+    padding-right: 103px;
+}
+.bottom_btn{
+    /* position: absolute; */
+    border: 1px solid;
+    padding: 16px;
+    width: 65%;
+    border-radius: 12px;
+    border-color: rgb(90, 90, 90);
+    background-color: #898a8b;
+    color: #fff;
+    /* margin-top: 17px; */
+}
+.bottom_btn:hover{
+    border: 1px solid;
+    padding: 16px;
+    width: 65%;
+    border-radius: 12px;
+    border-color: #fff;
+    background:#fff;
+    color: green;
+}
+.bottom_btn2{
+        border: 1px solid;
+        padding: 16px;
+        margin-top: 17px;
+        width: 45%;
+        border-radius: 12px;
+        border-color: rgb(90, 90, 90);
+        background-color: #d1d1d1;
+        color: blue;
+}
+.bottom_btn2:hover{
+    border: 1px solid;
+    padding: 16px;
+    width: 45%;
+    border-radius: 12px;
+    border-color: #fff;
+    background:#fff;
+    color: green;
+}
+.Bottom_nav_color{
+    background-color: #d1d1d1;
+}
+.text_sticy{
+    font-size:x-small;
+}
+.bottom_btn3{
+    border: 1px solid;
+    padding: 1px;
+    margin-top: 17px;
+    width: 14%;
+    border-radius: 50px;
+    border-color: #fff;
+    background-color: #ece8e8;
+    color: rgb(110, 110, 110);
+}
+.feature_img{
+    /* position: absolute; */
+    margin-top: 2px; 
+    margin-left: -12px;
+}
+.why_img1{
+    position: absolute;
+    margin-top: -152px;
+
+}
+.why_img2{
+    position: absolute;
+    margin-top: 50px;
+}
+.why_cont2{
+    margin-top: 71px;
+}
+.why_img3{
+    position: absolute;
+    margin-top: 37%;
+}
+.why_cont3{
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 24%;
+    width: 50%;
+}
+.why_colum{
+    padding-bottom: 150px;
+}
+.why_para{
+    width: 50%;
+}
+.ask_topic_pad{
+    padding-bottom: 100px;
+}
+.bottom_img{
+    margin-top: 26px;
+    height: 84%;
+    width: 80%;
+    margin-left: 65px;
+}
+
+
+@media screen and (min-width:576px)and (max-width: 600px) {
+    .tenkfollow1{
+        margin-left: -55px;
+
+    }
+    .tenkfollow2{
+        position: absolute;
+        margin-top: 91px;
+        margin-left: -100px;
+    }
+    .mediafamily{
+        padding-bottom: 150px;
+        width: 100%;
+    }
+    .family_content{
+        margin-left: 19%;
+        width: 30%;
+
+    }
+    .mediafamcont {
+        margin-top: 100px;
+        margin-left: 12%;
+        width: 40%;
+    }
+    .family_content1{
+        margin-left: 19%;
+        width: 65%;
+        margin-top: 67px;
+
+    }
+    .mediafamcont1{
+       
+        margin-top: 135px;
+        margin-left: 73px;
+
+
+    }
+    .mediafambtn1{
+    
+        margin-left: 118px;
+        margin-top: -5px;
+        
+    }
+    .mediafambtn2{
+        margin-top: 34%;
+        margin-left: 74px;
+
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .tenkfollow1{
+        /* position: absolute;
+        margin-top: 20px;
+        margin-left: -100px; */
+        margin-left: -55px;
+
+    }
+    .tenkfollow2{
+        position: absolute;
+        margin-top: 91px;
+        margin-left: -100px;
+    }
+    .mediafamily{
+        padding-bottom: 230px;
+        width: 100%;
+    }
+    .family_content{
+        margin-left: 19%;
+        width: 30%;
+
+    }
+    .mediafamcont {
+        margin-top: 100px;
+        margin-left: 12%;
+        width: 40%;
+    }
+    .family_content1{
+        margin-left: 19%;
+        width: 65%;
+        margin-top: 67px;
+
+    }
+    .mediafamcont1{
+       
+        margin-top: 135px;
+        margin-left: 73px;
+
+
+    }
+    .mediafambtn1{
+    
+        margin-left: 118px;
+        margin-top: -5px;
+        
+    }
+    .mediafambtn2{
+        margin-top: 34%;
+        margin-left: 74px;
+
+    }
+
+}
